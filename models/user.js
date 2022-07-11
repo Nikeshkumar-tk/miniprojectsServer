@@ -16,8 +16,8 @@ const userSchema=new mongoose.Schema({
 
     },
     profilePic:{
-        type:String.fromCharCode,
-        default:"",
+        type:String,
+        default:""
 
     }
 },
